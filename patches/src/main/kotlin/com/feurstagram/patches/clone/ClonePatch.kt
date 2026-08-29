@@ -41,7 +41,7 @@ val clonePatch = resourcePatch(
 
     val appName by stringOption(
         key = "appName",
-        default = "Feurstagram",
+        default = "DSD Insta",
         title = "App name",
         description = "A new app name (label). Entering \"Instagram\" skips changing the label.",
         required = true,
