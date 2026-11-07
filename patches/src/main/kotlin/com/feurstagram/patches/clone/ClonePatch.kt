@@ -39,6 +39,8 @@ val clonePatch = resourcePatch(
         it!!.matches(Regex("^[a-z]\\w*(\\.[a-z]\\w*)+$"))
     }
 
+//just push
+
     val appName by stringOption(
         key = "appName",
         default = "DSD Insta",
